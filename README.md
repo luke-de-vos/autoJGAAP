@@ -6,7 +6,7 @@ Streamline the JGAAP experimentation process by automating configuration file cr
 ## Usage
 
 #### Documents
-Place plaintext documents to experiment on in **Documents**. Place documents for training in the **Known** subdirectory. Place documents for testing in the **Unknown** directory. Within these directories, Each file should be stored in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". [Example directory tree](/example.jpg)
+Place plaintext documents to experiment on in **Documents**. Place documents for training in the **Known** subdirectory. Place documents for validation in the **Unknown** directory. Within these directories, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". [Example directory tree](/example.jpg)
 
 NOTE: ensure no document or directory names contain commas.
 
