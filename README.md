@@ -15,7 +15,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 * **Documents** contains all plaintext documents to experiment on.
 * Documents in **Known** are used to train JGAAP to recognize patterns in each author's writing. 
 * Documents in **Unknown** are used to test JGAAP's training; JGAAP attempts to determine the author of each document in **Unknown** by applying its understanding of each author's style gained by training on the **Known** documents. 
-* Within **Known** and **Unknown**, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". 
+* Within **Known** and **Unknown**, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". Any number of authors can be provided.
 * [Example directory tree](/example.jpg)
 * NOTE: ensure no document or directory names contain commas.
 
