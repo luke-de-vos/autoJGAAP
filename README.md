@@ -1,49 +1,65 @@
 # autoJGAAP
-Automate bottlenecks in the JGAAP experimentation process.
+Streamline the JGAAP experimentation process by automating configuration file creation, experiment execution, and results info extraction.
 
 [Download JGAAP](https://github.com/evllabs/JGAAP/releases) 
 
 ## Usage
 
-Place plaintext documents to experiment on in 'Documents'. Each file should be stored in a folder named after its author or category, such as "Hemingway" or "Left-handed". NOTE: ensure no document or directory names contain commas, or experimentation will fail.
+#### Documents
+Place plaintext documents to experiment on in **Documents**. Place documents for training in the **Known** subdirectory. Place documents for testing in the **Unknown** directory. Within these directories, Each file should be stored in a folder named after its author or category, such as "Hemingway" or "Left-handed". 
 
-Specify experiment settings in 'settings.csv'. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
+An example directory tree:
+
+![Example directory tree](/images/dirtree.jpg)
+
+
+NOTE: ensure no document or directory names contain commas.
+
+#### Experiment Settings
+Specify experiment settings in **settings.csv**. Place each experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
+
+#### Execution Syntax
+Within the **autoJGAAP** directory, enter on the command line:
+
+```python3 autoJGAAP.py```
+
+NOTE: python3 -> python if using Windows
 
 
 ## Background
 
 As the scale of a research project grows, the convenience of JGAAP command line experimentation becomes necessity. However, configuration files for massive experiments are time-consuming to write, and thousands of results are difficult to interpret.
 
-autoJGAAP.py automates these elements of the research pipeline to fit a user's research needs, both to increase time efficiency and lower the learning curve for less experienced researchers.
+**autoJGAAP.py** automates these elements of the research pipeline to fit a user's research needs, both to increase time efficiency and lower the learning curve for less experienced researchers.
 
 ## Per-script Breakdown
 
-* **printCorpusConfig.py**
+```printCorpusConfig.py```
 
 Writes corpus configuration file. This config file provides JGAAP with the author, path, and name of each document to experiment on.
 
-* **printSettingsConfig.py**
+```printSettingsConfig.py```
 
-Writes settings config file. Each line of this config file is a combonation of user-provided settings in settings.csv and provides instructions for one experiment.
+Writes settings config file. Each line of this config file is a combonation of user-provided settings in **settings.csv** and provides instructions for one experiment.
 
-* **print_tmp.py**
+```print_tmp.py```
 
-JGAAP experiment results are written to text files in tmp. print_tmp.py combines all results files. The combined results are written to rawResults.txt.
+JGAAP experiment results are written to text files in tmp. **print_tmp.py** combines all results files. The combined results are written to **rawResults.txt**.
 
-* **refineResults.py**
+```refineResults.py```
 
-Condenses rawResults.txt to the number of currect and total classifications for a given combonation of experiment settings for a given author's documents. This information is written to refinedResults.csv.
+Condenses **rawResults.txt** to the number of currect and total classifications for a given combonation of experiment settings for a given author's documents. This information is written to **refinedResults.csv**.
 
-* **getSettingPerformance.py**
+```getSettingPerformance.py```
 
-From refinedResults.csv, determines average success rate, standard deviation of success rates, median success rate, and average success rate across all authors for each individual experiment setting used in settings.csv. Performance written to singleSettingPerformance.csv.
+From **refinedResults.csv**, determines average success rate, standard deviation of success rates, median success rate, and average success rate across all authors for each individual experiment setting used in settings.csv. Performance written to **singleSettingPerformance.csv**.
 
-* **autoJGAAP.py**
+```autoJGAAP.py```
 
 Wrapper for above scripts.
-All results files moved to 'Results' directory.
-Configuration files moved to 'Configuration' directory.
-JGAAP standard output written to 'JGAAP_status_output.txt'
+All results files moved to **Results** directory.
+Configuration files moved to **Configuration** directory.
+JGAAP standard output written to **JGAAP_status_output.txt**
 
 
 
