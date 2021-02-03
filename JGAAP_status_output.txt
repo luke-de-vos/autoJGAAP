@@ -1,0 +1,305 @@
+0 [main] INFO com.jgaap.JGAAP  - Starting CLI
+3043 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+3433 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+3590 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+3593 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+3593 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+3605 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+3678 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+3678 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+3678 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+3678 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+3678 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+3679 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+3679 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+3745 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+3746 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+3760 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+3763 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+3763 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+3779 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+3779 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+3779 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+3779 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+3779 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+3783 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+3879 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Word Lengths/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+3945 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4004 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+4004 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4004 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+4004 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+4004 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+4009 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+4009 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4074 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4074 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4078 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+4080 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4145 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4151 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4153 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Rare Words/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4156 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4156 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4156 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+4156 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+4156 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+4217 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4273 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4273 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4273 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+4273 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+4273 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+4281 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4337 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4339 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4339 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4340 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4395 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4405 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4405 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4405 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4464 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4471 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4471 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+4471 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+4471 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+4471 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4530 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4530 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4530 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+4530 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+4531 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+4531 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4589 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4596 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4596 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4596 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4650 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+4657 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4657 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4657 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace Unify Case/Character Ngrams_N-4/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+4710 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+4710 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+4711 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+4711 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+4769 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4830 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4831 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4832 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4832 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Word Lengths
+4895 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+4896 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+4897 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Word Lengths/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+4954 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+4954 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+4955 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+4955 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+4955 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+4955 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5011 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+5014 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+5015 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+5015 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+5015 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+5015 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5082 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+5086 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5086 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5087 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5152 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Rare Words
+5157 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5157 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5158 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Rare Words/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5215 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5215 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+5215 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+5215 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+5215 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+5216 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5274 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5275 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+5275 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+5275 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+5275 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+5280 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5286 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5286 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5290 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5291 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5344 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5344 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5348 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5348 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+5349 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Cosine Distance
+5349 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Cosine Distance
+5349 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Cosine Distance
+5342 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5353 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5408 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Absolute Centroid Driver
+5409 [pool-1-thread-1] INFO com.jgaap.backend.API  - Training Absolute Centroid Driver with metric Bray Curtis Distance
+5409 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Training Absolute Centroid Driver with metric Bray Curtis Distance
+5409 [pool-1-thread-1] INFO com.jgaap.backend.API  - Finished Analysis with Absolute Centroid Driver with metric Bray Curtis Distance
+5408 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5465 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Absolute Centroid Driver-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5466 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5468 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5468 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5518 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Absolute Centroid Driver-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5521 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding EventDriver Character NGrams
+5579 [pool-1-thread-1] INFO com.jgaap.backend.API  - Adding AnalysisDriver Burrows Delta
+5579 [pool-1-thread-1] ERROR com.jgaap.backend.ExperimentEngine  - Could not run experiment /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt
+java.lang.ClassCastException: class com.jgaap.classifiers.BurrowsDelta cannot be cast to class com.jgaap.generics.NeighborAnalysisDriver (com.jgaap.classifiers.BurrowsDelta and com.jgaap.generics.NeighborAnalysisDriver are in unnamed module of loader 'app')
+	at com.jgaap.backend.API.addDistanceFunction(API.java:567)
+	at com.jgaap.backend.API.addDistanceFunction(API.java:555)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:244)
+	at com.jgaap.backend.ExperimentEngine$Experiment.call(ExperimentEngine.java:1)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+5575 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Burrows Delta-Cosine Distance/Experiment Set NameexpName2021-02-03.txt has finished.
+5637 [main] INFO com.jgaap.backend.ExperimentEngine  - Experiment: /home/luke/EVL_Lab/autoJGAAPv2/autoJGAAP/tmp/Normalize Whitespace/Character Ngrams_N-4/Burrows Delta-Bray Curtis Distance/Experiment Set NameexpName2021-02-03.txt has finished.
