@@ -1,5 +1,5 @@
 # autoJGAAP
-Streamline the JGAAP experimentation process by automating configuration file creation, experiment execution, and results info extraction.
+autoJGAAP streamlines the JGAAP experimentation process by automating configuration file creation, experiment execution, and results info extraction.
 
 [Download JGAAP](https://github.com/evllabs/JGAAP/releases) 
 
