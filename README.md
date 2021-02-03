@@ -6,17 +6,12 @@ Streamline the JGAAP experimentation process by automating configuration file cr
 ## Usage
 
 #### Documents
-Place plaintext documents to experiment on in **Documents**. Place documents for training in the **Known** subdirectory. Place documents for testing in the **Unknown** directory. Within these directories, Each file should be stored in a folder named after its author or category, such as "Hemingway" or "Left-handed". 
-
-An example directory tree:
-
-[Example directory tree](/example.jpg)
-
+Place plaintext documents to experiment on in **Documents**. Place documents for training in the **Known** subdirectory. Place documents for testing in the **Unknown** directory. Within these directories, Each file should be stored in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". [Example directory tree](/example.jpg)
 
 NOTE: ensure no document or directory names contain commas.
 
 #### Experiment Settings
-Specify experiment settings in **settings.csv**. Place each experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
+Specify experiment settings in **settings.csv**. Place each desired experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
 
 #### Execution Syntax
 Within the **autoJGAAP** directory, enter on the command line:
