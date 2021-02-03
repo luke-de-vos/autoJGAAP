@@ -3,6 +3,12 @@ Streamline the JGAAP experimentation process by automating configuration file cr
 
 [Download JGAAP](https://github.com/evllabs/JGAAP/releases) 
 
+## Background
+
+As the scale of a research project grows, the convenience of JGAAP command line experimentation becomes necessity. However, configuration files for massive experiments are time-consuming to write, and thousands of results are difficult to interpret.
+
+**autoJGAAP.py** automates these elements of the research pipeline to fit a user's research needs, both to increase time efficiency and lower the learning curve for less experienced researchers.
+
 ## Usage
 
 #### Documents
@@ -19,13 +25,6 @@ Within the **autoJGAAP** directory, enter on the command line:
 ```python3 autoJGAAP.py```
 
 NOTE: python3 -> python if using Windows
-
-
-## Background
-
-As the scale of a research project grows, the convenience of JGAAP command line experimentation becomes necessity. However, configuration files for massive experiments are time-consuming to write, and thousands of results are difficult to interpret.
-
-**autoJGAAP.py** automates these elements of the research pipeline to fit a user's research needs, both to increase time efficiency and lower the learning curve for less experienced researchers.
 
 ## Per-script Breakdown
 
