@@ -10,7 +10,7 @@ Place plaintext documents to experiment on in **Documents**. Place documents for
 
 An example directory tree:
 
-![Example directory tree](/images/dirtree.jpg)
+[Example directory tree](/example.jpg)
 
 
 NOTE: ensure no document or directory names contain commas.
