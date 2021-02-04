@@ -9,9 +9,8 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 **autoJGAAP.py** automates these elements of the research pipeline, both to significantly increase time efficiency and lower the learning curve for less experienced researchers.
 
-## Usage
+## Execution
 
-### Execution Syntax
 Within the **autoJGAAP** directory, enter on the command line:
 
 ```python3 autoJGAAP.py```
