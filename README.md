@@ -11,23 +11,25 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ## Usage
 
-### Documents
-* **Documents** contains all plaintext documents to experiment on.
-* Documents in **Known** are used to train JGAAP to recognize patterns in each author's writing. 
-* Documents in **Unknown** are used to test JGAAP's training; JGAAP attempts to determine the author of each document in **Unknown** by applying its understanding of each author's style gained by training on the **Known** documents. 
-* Within **Known** and **Unknown**, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". Any number of authors can be provided.
-* [Example directory tree](/example.jpg)
-* NOTE: ensure no document or directory names contain commas.
-
-### Experiment Settings
-Specify experiment settings in **settings.csv**. Place each desired experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
-
 ### Execution Syntax
 Within the **autoJGAAP** directory, enter on the command line:
 
 ```python3 autoJGAAP.py```
 
 NOTE: python3 -> python if using Windows
+
+## Experiment Setup
+
+### Documents
+* The **Documents** directory contains all plaintext documents to experiment on.
+* Documents in **Known** are used to train JGAAP to recognize patterns in each author's writing. 
+* Documents in **Unknown** are used to test JGAAP's training; JGAAP attempts to determine the author of each document in **Unknown** by applying its understanding of each author's style gained by training on the **Known** documents. 
+* Within **Known** and **Unknown**, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". Any number of authors can be provided.
+* [Example directory tree](/example.jpg)
+* NOTE: ensure no document or directory names contain commas.
+
+### Settings
+Specify experiment settings in **settings.csv**. Place each desired experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. Names and brief explanations experiment settings can be found by browsing JGAAP's GUI.
 
 ## Per-script Breakdown
 
