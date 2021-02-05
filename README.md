@@ -7,7 +7,7 @@
 
 As the scale of a research project grows, the convenience of JGAAP command line experimentation becomes a necessity. However, configuration files for massive experiments are time-consuming to write, and thousands of experiment results are difficult to interpret.
 
-**autoJGAAP.py** automates these elements of the research pipeline, both to significantly increase time efficiency and lower the learning curve for less experienced researchers.
+**autoJGAAP.py** automates these elements of the research pipeline, both to increase time efficiency and lower the learning curve for less experienced researchers.
 
 ## Execution
 
