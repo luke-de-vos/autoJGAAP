@@ -40,20 +40,25 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ## Per-script Breakdown
 
+```autoJGAAP.py```
+
+* Wrapper for the following scripts.
+* Organizes produced files, checks for errors
+
 ```printCorpusConfig.py```
 
-* Writes corpus configuration file. 
+* Writes corpus configuration file, placed in **Configuration**.
 * This config file provides JGAAP with the author, path, and name of each document to experiment on.
 
 ```printSettingsConfig.py```
 
-* Writes settings config file. 
+* Writes settings config file, placed in **Configuration**.
 * Each line of this config file is a combonation of user-provided settings in **settings.csv** and provides instructions for one experiment.
 
 ```print_tmp.py```
 
-* JGAAP experiment results are written to text files in tmp. 
-* **print_tmp.py** combines all results files. 
+* JGAAP writes experiment results to text files in tmp. 
+* **print_tmp.py** combines all files in tmp and its subdirectories.
 * The combined results are written to **rawResults.txt**.
 
 ```refineResults.py```
@@ -65,13 +70,6 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 * From **refinedResults.csv**, determines average success rate, standard deviation of success rates, median success rate, and average success rate across all authors for each individual experiment setting used in settings.csv. 
 * Performance stats written to **singleSettingPerformance.csv**.
-
-```autoJGAAP.py```
-
-* Wrapper for above scripts.
-* All results files moved to **Output** directory.  
-* Configuration files moved to **Configuration** directory.  
-* JGAAP standard output written to **JGAAP_status_output.txt**  
 
 
 
