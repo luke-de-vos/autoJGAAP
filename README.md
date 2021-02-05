@@ -1,7 +1,7 @@
 # autoJGAAP
 **autoJGAAP** streamlines the JGAAP experimentation process by automating configuration file creation, experiment execution, and results analysis.
 
-[Download JGAAP](https://github.com/evllabs/JGAAP/releases) 
+[Download the latest JGAAP .jar](https://github.com/evllabs/JGAAP/releases) 
 
 ## Background
 
