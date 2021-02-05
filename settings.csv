@@ -1,5 +1,0 @@
-Experiment Set Name,Canonicizer,Event Driver,Analysis Method,Distance Function,Path to Corpus Configuration File (do not change)
-expName,Normalize Whitespace&Unify Case,Word Lengths,Absolute Centroid Driver,Cosine Distance,Configuration/corpusConfig.csv
-,Normalize Whitespace,Rare Words,Burrows Delta,,
-,,Character Ngrams,,,
-,,Character Ngrams|N:4,,,
