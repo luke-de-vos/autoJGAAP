@@ -11,7 +11,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ## Execution
 
-* Place a copy of the JGAAP .jar file in the **autoJGAAP** directory. 
+* Place the JGAAP .jar file in the **autoJGAAP** directory. 
 * Navigate to this directory on your command line and enter the following command:
 
   * ```python3 autoJGAAP.py```
