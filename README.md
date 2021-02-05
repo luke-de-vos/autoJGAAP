@@ -31,7 +31,11 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ### Settings
 * Specify experiment settings in **settings.csv**.
-* Place each desired experiment setting in its corresponding column, beginning at the second row. JGAAP will be configured to run experiments with every combination of the provided settings. 
+* JGAAP will be configured to run an experiment with every combination of the provided settings: one setting from each column.
+* Place each desired experiment setting in its corresponding column, beginning at the second row. 
+  * If a setting references a variable, such as character n-grams, specify this variable's value like so:
+    * Character Ngrams|N:4  
+    *for n=4*
 * Names and brief explanations experiment settings can be found in JGAAP's GUI.
 
 ## Per-script Breakdown
