@@ -14,7 +14,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 * Place a copy of the JGAAP .jar file in the **autoJGAAP** directory. 
 * Navigate to this directory on your command line and enter the following command:
 
-```python3 autoJGAAP.py```
+  * ```python3 autoJGAAP.py```
 
 * NOTE: Enter 'python' instead of 'python3' if using Windows.
 * Experiment results and other output will be stored in the **Output** directory. 
