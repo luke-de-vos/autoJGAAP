@@ -23,15 +23,15 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ### Documents
 * The **Documents** directory contains all plaintext documents to experiment on, stored in the **Known** and **Unknown** subdirectories.
-* Documents in **Known** are used to train JGAAP to learn the style of each author. 
-* Documents in **Unknown** are used to test JGAAP's training; JGAAP attempts to determine the author of each document in **Unknown** by applying its understanding of each author's style gained by training on the **Known** documents. 
-* Within **Known** and **Unknown**, store each document in a folder named after its author or category, such as "Hemingway" or "EastCoastResidents". Any number of authors can be provided.
+* Documents in the **Known** directory are used to train JGAAP to learn the style of each author. 
+* Documents in the **Unknown** directory are used to test JGAAP's training; JGAAP attempts to determine the author of each document in **Unknown** by applying its understanding of each author's style gained by training on the **Known** documents. 
+* Within **Known** and **Unknown**, store each document in a directory named after its author or category, such as "Hemingway" or "EastCoastResidents". Any number of authors can be provided.
 * [Example directory tree](/example.jpg)
 * NOTE: ensure no document or directory names contain commas.
 
 ### Settings
-* Specify experiment settings in **settings.csv**.
-* JGAAP will be configured to run an experiment with every combination of the provided settings: one setting from each column.
+* Specify experiment settings in **settings.csv**. Any number of experiment settings can be provided.
+* JGAAP will be configured to run an experiment with *every combination* of the provided settings: one setting from each column.
 * Place each desired experiment setting in its corresponding column, beginning at the second row. 
   * If a setting references a variable, such as character n-grams, specify this variable's value like so:
     * Character Ngrams|N:4  
