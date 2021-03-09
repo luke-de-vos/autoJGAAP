@@ -53,7 +53,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 ```printSettingsConfig.py```
 
 * Writes settings config file, placed in **Configuration**.
-* Each line of this config file is a combonation of user-provided settings in **settings.csv** and provides instructions for one experiment.
+* Each line of this config file is a combination of user-provided settings in **settings.csv** and provides instructions for one experiment.
 
 ```print_tmp.py```
 
@@ -63,7 +63,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
 ```refineResults.py```
 
-* Condenses **rawResults.txt** to the number of currect and total classifications for a given combonation of experiment settings for a given author's documents. 
+* Condenses **rawResults.txt** to the number of currect and total classifications for a given combination of experiment settings for a given author's documents. 
 * This information is written to **refinedResults.csv**.
 
 ```getSettingPerformance.py```
