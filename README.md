@@ -16,7 +16,7 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 
   * ```python3 autoJGAAP.py```
 
-* NOTE: Enter 'python' instead of 'python3' if using Windows.
+  * NOTE: Enter 'python' instead of 'python3' if using Windows.
 * Experiment results and other output will be stored in the **Output** directory. 
 
 ## Experiment Setup
@@ -35,7 +35,9 @@ As the scale of a research project grows, the convenience of JGAAP command line 
 * Place each desired experiment setting in its corresponding column, beginning at the second row. 
   * If a setting references a variable, such as character n-grams, specify this variable's value like so:
     * Character Ngrams|N:4  
-    *for n=4*
+    *for N=4*
+    * K Skip N Word Gram|K:2|N:3  
+    *for K=2, N=3*
 * Names and brief explanations experiment settings can be found in JGAAP's GUI.
 
 ## Per-script Breakdown
