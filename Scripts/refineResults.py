@@ -5,9 +5,7 @@ import re
 
 #passed experiment text, return real author
 def getAuthor(exp):
-	author = re.search("Documents/Unknown/.+?/", exp)
-	if author != None:
-		author = author.group(0)[18:-1]
+	author = exp.split('\n')[0].split("/")[2]
 	return author
 
 #passed experiment text, return #1 guess
